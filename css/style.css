@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: 'TT Hoves', Arial, sans-serif;
+  font-family: 'TT Lakes', sans-serif;
   font-weight: 400;
   line-height: normal;
   font-style: normal;
@@ -112,6 +112,7 @@ ol {
   width: 100vw !important;
   max-width: 100%;
   background: #FFFFFF;
+  border-bottom: 1px solid #bfa069;
 }
 
 .header .col-12,
@@ -364,6 +365,7 @@ ol {
   background-color: #005794;
   padding: 15px 40px;
   box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
+  cursor: pointer;
 }
 
 .main-sec .left {
@@ -440,6 +442,7 @@ ol {
   line-height: 1.2;
   font-weight: 500;
   padding: 10px 20px;
+  margin-bottom: 30px;
 }
 
 .info-card img {
@@ -476,7 +479,7 @@ ol {
 .slider-description {
   color: #ffffff;
   font-size: 32px;
-  line-height: 1.1;
+  line-height: 1.2;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -486,9 +489,15 @@ ol {
   font-size: 18px;
 }
 
+.slider-subtitle,
+.slider-description {
+  line-height: 1.4;
+}
+
 .methodology-content .slider img {
   height: 550px;
   width: 100%;
+  object-fit: cover;
 }
 
 .swiper-pagination-bullet {
@@ -534,7 +543,7 @@ ol {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 312px;
+  height: 360px;
 }
 
 .school-info .content2 .slider-subtitle {
@@ -543,12 +552,12 @@ ol {
 
 .school-info .slider-images {
   width: 100%;
-  height: 354px;
+  height: 480px;
 }
 
 .school-info .slider-images img {
   width: 100%;
-  height: 354px;
+  height: 480px;
 }
 
 .swiper-slide a,
@@ -727,7 +736,7 @@ ol {
 
 .level .main-btn.btn2 {
   display: block;
-  width: 307px;
+  /* width: 307px; */
 }
 
 .time.time1,
@@ -947,7 +956,7 @@ ol {
 .trainer-description .info span {
   font-weight: 700;
   color: #005794;
-  font-size: 32px;
+  font-size: 42px;
 }
 
 .trainer-description .info-hover {
@@ -1009,7 +1018,7 @@ ol {
 .table-sec {
   display: flex;
   width: 100vw;
-  height: 646px;
+  /* height: 646px; */
 }
 
 .schedule {
@@ -1175,7 +1184,7 @@ select {
 .news-sec .news__sec-card .news__slider-img2,
 .news-sec .news__sec-card .news__slider-img3 {
   background-image: url(../images/news1.jpg);
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1263,7 +1272,7 @@ select {
 }
 
 .contact-info {
-  padding: 30px 0 20px 10px;
+  padding: 30px 0 120px 10px;
   width: 50vw;
   color: #FFFFFF;
   display: flex;
@@ -1311,9 +1320,8 @@ select {
   width: 50vw;
 }
 
-.map img {
-  width: 100%;
-  height: 100%;
+.map iframe {
+  margin-bottom: -4px;
 }
 
 /* Modal */
