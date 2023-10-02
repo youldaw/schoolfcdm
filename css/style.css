@@ -172,6 +172,10 @@ ol {
   background: #005794FF;
 }
 
+.header-con-right {
+  padding-right: 95px;
+}
+
 .personal-area {
   display: flex;
   align-items: center;
@@ -1865,6 +1869,7 @@ input[type="checkbox"]#email_user {
   .row.main-content {
     flex-direction: column;
     align-items: center;
+    background-position: 330px 30px;
   }
 
   .row.main-content .col-md-6 {
@@ -1882,15 +1887,17 @@ input[type="checkbox"]#email_user {
     left: 50%;
     bottom: 0;
     transform: translateX(-15%);
+    width: 75vw;
   }
 
   .main-sec .main-btn {
-    position: absolute;
+    position: relative;
     bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
     z-index: 2;
-    width: 307px;
+    width: 320px;
+    display: flex;
+    margin: auto;
   }
 
   .level .main-btn.btn1 {
@@ -2139,6 +2146,18 @@ input[type="checkbox"]#email_user {
 }
 
 @media(max-width: 479px) {
+  .level .main-btn.btn1 {
+    width: auto;
+  }
+  .space {
+    display: none;
+  }
+  .row.main-content {
+    background-position: 170px 30px;
+  }
+  .main-titles {
+    width: 74%;
+  }
   .main-title {
     font-size: 22px;
     margin-bottom: 10px;
@@ -2213,6 +2232,8 @@ input[type="checkbox"]#email_user {
     font-size: 10px;
   }
 }
+
+
 
 @keyframes marquee {
   0% {
